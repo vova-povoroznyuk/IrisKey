@@ -1,0 +1,51 @@
+.about-business{
+  background-image: url('../img/png/Rectangle.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 26.8em;
+}
+.about-business_content{
+  display: flex;
+}
+.info {
+  padding-left: 17.2em;
+  padding-top: 7em;
+  margin-bottom: 6em;
+}
+.about-business_caption{
+  width: fit-content;
+  margin: 0 auto 8.6em;
+}
+.section_caption{
+  margin-bottom: 7.2em;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -2em;
+    left: -5em;
+    width: 9.5em;
+    height: 9.5em;
+    border: 1px solid #B8121A;
+  }
+}
+.info_caption{
+  margin-bottom: 5.5em;
+}
+.info_item {
+  display: flex;
+  max-width: 62em;
+  margin-bottom: 1em;
+}
+.info_item > p {
+  width: 50%;
+}
+.item_logo-wrap{
+  max-width: 83em;
+  display: flex;
+}
+.item_read-more{
+  &:hover {
+    opacity: 0.8;
+  }
+}

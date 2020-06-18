@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5, h6, ul {
+h1, h2, h3, h4, h5, h6, ul, p {
     margin: 0;
     padding: 0;
 }
@@ -9,4 +9,19 @@ h1, h2, h3, h4, h5, h6, ul {
     @include md(max-width, rem(690));
     @include lg(max-width, rem(930));
     @include xl(max-width, rem(1110));
+}
+
+body {
+    font-size: calc(0.26vw + 0.3125rem);
+}
+button {
+    display: block;
+    cursor: pointer;
+    outline: none;
+}
+a{
+    outline: none;
+}
+img {
+    width: 100%;
 }

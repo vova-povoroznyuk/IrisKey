@@ -1,0 +1,11 @@
+.social{
+  display: flex;
+  justify-content: space-between;
+  max-width: 19em;
+
+}
+.social_item{
+  &:hover {
+    opacity: 0.8;
+  }
+}

@@ -1,0 +1,71 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-image: url('../img/png/headerBackground.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 8em;
+  padding-bottom: 6em;
+  position: relative;
+}
+.header_right-part {
+  width: 100%;
+  max-width: 26em;
+  padding-top: 5em;
+}
+.header_center-part {
+  padding-top: 5em;
+}
+.header_caption-wrapper{
+  text-align: center;
+}
+.header_home{
+  width: fit-content;
+  margin: 0 auto 10.8em;
+}
+.header-btn{
+  background: transparent;
+  padding: 0.5em 1em;
+  border: 3px solid #FFFFFF;
+  margin: 4em auto 0;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.header_home-before{
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -1em;
+    right: 0.5em;
+    width: 3.8em;
+    height: 3.8em;
+    border: 1px solid #464069;
+  }
+}
+.header_auth-wraper{
+  max-width: 22.5em;
+  display: flex;
+  margin-bottom: 4.1em;
+}
+.header_auth-btn{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  border: 1px solid #B8121A;
+  width: 50%;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.header_auth-join{
+  background: #B8121A;
+}
+.star {
+  position: absolute;
+  bottom: -12em;
+  right: 12em;
+  width: 22.7em;
+  z-index: 1;
+}

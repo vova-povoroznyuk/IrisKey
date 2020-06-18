@@ -1,0 +1,41 @@
+.map{
+  position: relative;
+}
+.map_rectangleMap {
+  background-image: url('../img/png/RectangleMap.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 6%;
+  padding-bottom: 5%;
+  position: absolute;
+  bottom: -11vw;;
+  text-align: center;
+}
+.main_btn{
+  background: transparent;
+  padding: 0.5em 1em;
+  border: 3px solid #FFFFFF;
+  margin: 3em auto 0;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.main_star{
+  position: absolute;
+}
+.main_star-1{
+  width: 16.5em;
+  left: 12.8em;
+  bottom: 4.5em;
+}
+.main_star-2{
+  width: 8.3em;
+  left: 3.6em;
+  bottom: -1.5em;
+}
+.main_star-3{
+  width: 9.7em;
+  left: 19.8em;
+  bottom: -9em;
+}
